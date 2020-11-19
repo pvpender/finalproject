@@ -26,6 +26,7 @@ header{
     float: right;
     height: 650px;
     border-radius: 10px;
+    position:relative;
 }
 .normal{
     background:white;
@@ -101,10 +102,14 @@ ul li a span:nth-child(4) {
   list-style-type: none;
   display: inline-block;
   height: 70px;
+  position:absolute;
+  vertical-align: bottom;
+	bottom:0;
 }
 .socialIcons li {
   display: inline-block;
   margin: auto 10px;
+
 }
 .socialIcons li a {
   display: inline-block;
