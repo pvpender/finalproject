@@ -15,26 +15,43 @@ header{
     line-height: 1;
     float: left;
 }
+#footer
+{
+
+    width: 90%;
+    height: 95px;
+    line-height: 60px;
+    background-color: rgba(20,20,20,0.8);
+    text-align: left;
+    padding-left: 7px;
+    color: white;
+    display: inline-block;
+    border-radius: 10px;
+    margin-left: 5%;
+    margin-top: 1%;
+}
 .animation{
     margin-right: 5%;
 }
 .anouther{
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
     background: white;
     width: 20%;
     margin-right: 5%;
     display: inline-block;
     float: right;
-    height: 650px;
+    height: 850px;
     border-radius: 10px;
     position:relative;
 }
 .normal{
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
     background:white;
     width: 68%;
     display: inline-block;
     float: left;
     margin-left: 5%;
-    height: 650px;
+    height: 850px;
     border-radius: 10px;
 }
 .im{
